@@ -1,1 +1,36 @@
 /* write your override styles here */
+
+/*TAG 1*/
+#wall .tag-1 {
+  display: none;
+}
+
+/*TAG 2*/
+#wall .tag-1 + #tag-2 {
+  display: none;
+}
+
+/*TAG 3*/
+#wall #tag-2 + #tag-3 {
+  display: none;
+}
+
+/*TAG 4*/
+#wall .parent #tag-4{
+  display: none;
+}
+
+/*TAG 5*/
+#wall div.parent div#tag-5.slick{
+  display: none;
+}
+
+/*TAG 6*/
+#wall .parent:nth-last-child(2) {
+  display: none;
+}
+
+/*TAG 7*/
+#wall .parent:last-child {
+  display: none;
+}
